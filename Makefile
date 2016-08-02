@@ -11,5 +11,8 @@ Output: Output.m
 world: world.m
 	gcc `gnustep-config --objc-flags` -lgnustep-base -lobjc world.m -o world
 
+test:
+	./Output
+
 clean:
 	rm -rf $(bins) *.d
