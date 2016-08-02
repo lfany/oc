@@ -32,4 +32,5 @@ int main(int argc, char* argv[]){
 		NSDate *date = [[NSDate alloc] init];
 		NSLog(@"==%@==", date);
 	}
+	return 0;
 }
