@@ -3,4 +3,5 @@ world
 Output
 CharTest
 FloatTest
+FunctionTest
 *.d

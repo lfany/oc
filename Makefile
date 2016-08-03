@@ -1,4 +1,4 @@
-bins = hello world Output CharTest FloatTest
+bins = hello world Output CharTest FloatTest FunctionTest
 
 all: $(bins)
 
@@ -15,6 +15,9 @@ world: world.m
 	gcc `gnustep-config --objc-flags` -lgnustep-base -lobjc world.m -o world
 
 FloatTest: FloatTest.m
+	gcc `gnustep-config --objc-flags` -lgnustep-base -lobjc $< -o $@
+
+FunctionTest: FunctionTest.m
 	gcc `gnustep-config --objc-flags` -lgnustep-base -lobjc $< -o $@
 
 test:
