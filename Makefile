@@ -1,4 +1,4 @@
-bins = hello Output CharTest
+bins = hello Output CharTest FKPersonTest
 
 gnu_bins = world FloatTest FunctionTest
 
@@ -22,6 +22,9 @@ Output: Output.m
 
 CharTest: CharTest.m
 	clang $(CLANGFLAGS) $< -o $@
+
+FKPersonTest: FKPerson.m FKPersonTest.m
+	clang $(CLANGFLAGS) $^ -o $@
 
 ## only for Linux GnuStep OC ENV
 
