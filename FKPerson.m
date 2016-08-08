@@ -2,7 +2,7 @@
 
 @implementation FKPerson
 {
-    int _testAttr;
+    //int _testAttr;
 }
 
 - (void) setName:(NSString*) n andAge: (int) a{
