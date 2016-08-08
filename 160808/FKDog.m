@@ -8,8 +8,8 @@
 
 - (void) run
 {
-	FKDog* d = [[FKDog alloc] init];
-	[d jump];
+	//FKDog* d = [[FKDog alloc] init];
+	[self jump];
 	NSLog(@"正在执行run方法");
 }
 
