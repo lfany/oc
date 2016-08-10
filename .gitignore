@@ -13,4 +13,5 @@ FKPersonTest
 160808/IdTest
 160808/VarArgs
 FKUser
+Singleton
 *.d
