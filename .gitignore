@@ -15,4 +15,5 @@ FKPersonTest
 FKUser
 Singleton
 FKApple
+FKBook
 *.d

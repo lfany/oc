@@ -1,11 +1,11 @@
 #import "FKUser.h"
 
 @implementation FKUser
-@synthesize name = name;
+@synthesize name;
 @synthesize pass;
 @synthesize birth;
 
 - (void) setName: (NSString*) name{
-	self->_name = [NSString stringWithFormat: @"+++%@", name];
+	self->name = [NSString stringWithFormat: @"+++%@", name];
 }
 @end
