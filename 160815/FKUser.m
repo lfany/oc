@@ -1,7 +1,7 @@
 #import "FKUser.h"
 
 @implementation FKUser
-@synthesize name = _name;
+@synthesize name = name;
 @synthesize pass;
 @synthesize birth;
 
