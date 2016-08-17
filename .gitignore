@@ -6,7 +6,7 @@ CharTest
 FloatTest
 FunctionTest
 FKPersonTest
-
+FKUserTest
 160808/FKDogTest
 160808/FKWolf
 160808/ReturnSelf
