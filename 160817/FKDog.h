@@ -5,5 +5,6 @@
 	@package
 	NSString* name;
 	NSString* _name;
+	int age;
 }
 @end

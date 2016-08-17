@@ -16,4 +16,5 @@ FKUser
 Singleton
 FKApple
 FKBook
+FKDog
 *.d
