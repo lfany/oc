@@ -17,4 +17,6 @@ Singleton
 FKApple
 FKBook
 FKDog
+FKCarTest
+
 *.d
