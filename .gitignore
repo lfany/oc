@@ -18,5 +18,6 @@ FKApple
 FKBook
 FKDog
 FKCarTest
+FKAppleTest
 
 *.d

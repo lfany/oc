@@ -1,4 +1,4 @@
-bins = FKCarTest
+bins = FKCarTest FKAppleTest
 
 #gnu_bins = world FloatTest FunctionTest
 
@@ -41,6 +41,9 @@ test:
 	./Output
 
 FKCarTest: FKCar.m FKCarTest.m
+	clang $(CLANGFLAGS) $^ -o $@
+
+FKAppleTest: FKFruit.m FKApple.m FKAppleTest.m
 	clang $(CLANGFLAGS) $^ -o $@
 
 clean:
