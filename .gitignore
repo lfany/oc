@@ -20,5 +20,6 @@ FKDog
 FKCarTest
 FKAppleTest
 FKOstrichTest
+NSNumberTest
 
 *.d
