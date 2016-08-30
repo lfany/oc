@@ -26,5 +26,6 @@ FKPrinterTest
 a.out
 hello.txt
 NSStringTest
+NSStringTest2
 
 *.d
