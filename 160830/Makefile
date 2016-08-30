@@ -1,4 +1,4 @@
-bins = NSNumberTest
+bins = NSNumberTest FKApple
 
 gnu_bins = world FloatTest FunctionTest
 
