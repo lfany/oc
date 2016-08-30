@@ -22,5 +22,6 @@ FKAppleTest
 FKOstrichTest
 NSNumberTest
 NSNumberTest
+FKPrinterTest
 
 *.d

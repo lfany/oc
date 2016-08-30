@@ -1,4 +1,4 @@
-bins = NSNumberTest FKApple
+bins = NSNumberTest FKApple FKPrinterTest
 
 gnu_bins = world FloatTest FunctionTest
 
@@ -41,6 +41,7 @@ NSNumberTest: NSNumberTest.m NSNumber+fk.m
 	clang $(CLANGFLAGS) $^ -o $@
 FKApple: FKApple.m
 	clang $(CLANGFLAGS) $< -o $@
-
+FKPrinterTest: FKPrinter.m FKPrinterTest.m
+	clang $(CLANGFLAGS) $^ -o $@
 clean:
 	rm -rf $(bins) $(gnu_bins) *.d
