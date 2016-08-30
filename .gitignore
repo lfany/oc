@@ -23,5 +23,8 @@ FKOstrichTest
 NSNumberTest
 NSNumberTest
 FKPrinterTest
+a.out
+hello.txt
+NSStringTest
 
 *.d

@@ -1,4 +1,4 @@
-bins = NSNumberTest FKApple FKPrinterTest ClassTest CheckObject
+bins = NSNumberTest FKApple FKPrinterTest ClassTest CheckObject NSStringTest
 
 gnu_bins = world FloatTest FunctionTest
 
@@ -48,6 +48,8 @@ ClassTest: ClassTest.m
 	clang $(CLANGFLAGS) $^ -o $@
 
 CheckObject: CheckObject.m FKAppleImpl.m
+	clang $(CLANGFLAGS) $^ -o $@
+NSStringTest: NSStringTest.m
 	clang $(CLANGFLAGS) $^ -o $@
 
 clean:
