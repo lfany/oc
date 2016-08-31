@@ -13,6 +13,7 @@ int main(int argc, char* argv[]){
     NSLog(@"%@", date4);
     
     NSLocale* locale = [NSLocale currentLocale];
+    NSLog(@"%@", [date1 descriptionWithLocale: locale]);
     NSLog(@"%@", [date1 earlierDate: date2]);
     NSDate* earlier = [date1 earlierDate: date2];
     NSDate* later = [date1 laterDate: date2];
