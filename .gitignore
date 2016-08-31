@@ -30,5 +30,7 @@ NSStringTest2
 NSDateTest
 NSDateFormatterTest
 NSCalendarTest
+CopyTest
+
 
 *.d
