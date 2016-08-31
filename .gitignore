@@ -28,5 +28,6 @@ hello.txt
 NSStringTest
 NSStringTest2
 NSDateTest
+NSDateFormatterTest
 
 *.d
