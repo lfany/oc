@@ -29,5 +29,6 @@ NSStringTest
 NSStringTest2
 NSDateTest
 NSDateFormatterTest
+NSCalendarTest
 
 *.d
