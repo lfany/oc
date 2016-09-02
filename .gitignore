@@ -38,5 +38,6 @@ NSPathUtilitiesTest
 NSProcessInfoTest
 NSFileHandlerTest
 abc.txt
+NSURLTest
 
 *.d

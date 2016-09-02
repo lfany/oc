@@ -1,4 +1,4 @@
-bins = NSFileManagerTest2 NSFileManagerTest3 NSPathUtilitiesTest NSProcessInfoTest NSFileHandlerTest
+bins = NSFileManagerTest2 NSFileManagerTest3 NSPathUtilitiesTest NSProcessInfoTest NSFileHandlerTest NSURLTest
 all: $(bins)
 
 NSFileManagerTest2: NSFileManagerTest2.m
@@ -11,6 +11,7 @@ NSProcessInfoTest: NSProcessInfoTest.m
 	clang -fobjc-arc -framework Foundation $^ -o $@
 NSFileHandlerTest: NSFileHandlerTest.m
 	clang -fobjc-arc -framework Foundation $^ -o $@
-
+NSURLTest: NSURLTest.m
+	clang -fobjc-arc -framework Foundation $^ -o $@
 clean:
 	rm -rf $(bins)
