@@ -36,6 +36,7 @@ copyInfo.txt
 NSFileManagerTest3
 NSPathUtilitiesTest
 NSProcessInfoTest
-
+NSFileHandlerTest
+abc.txt
 
 *.d
