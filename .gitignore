@@ -39,5 +39,7 @@ NSProcessInfoTest
 NSFileHandlerTest
 abc.txt
 NSURLTest
+NSKeyedArchiverTest
+myDict.archive
 
 *.d
