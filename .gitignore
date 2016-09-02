@@ -33,5 +33,6 @@ NSCalendarTest
 CopyTest
 NSFileManagerTest2
 copyInfo.txt
+NSFileManagerTest3
 
 *.d
