@@ -8,7 +8,7 @@ int main(int argc, char* argv[]){
     NSLog(@"进程标识符为: %d", [proInfo processIdentifier]);
     NSLog(@"进程的进程名为: %@", [proInfo processName]);
     NSLog(@"进程所在系统的主机名为: %@", [proInfo hostName]);
-    NSLog(@"进程所在系统的操作系统为: %@", [proInfo operatingSystem]);
+    NSLog(@"进程所在系统的操作系统为: %ld", [proInfo operatingSystem]);
     NSLog(@"进程所在系统的操作系统名为: %@", [proInfo operatingSystemName]);
     NSLog(@"进程所在系统的操作系统版本字符串为: %@", [proInfo operatingSystemVersionString]);
     NSLog(@"进程所在系统的物理内存为: %lld", [proInfo physicalMemory]);
