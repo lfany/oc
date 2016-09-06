@@ -41,5 +41,6 @@ abc.txt
 NSURLTest
 NSKeyedArchiverTest
 myDict.archive
+NSKeyedUnarchiverTest
 
 *.d
