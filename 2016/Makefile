@@ -10,7 +10,7 @@ all: $(bins) $(gnu_bins)
 else
 	#CFLAGS ?= -framework OpenGL  -framework GLUT
 	CLANGFLAGS ?= -fobjc-arc -framework Foundation
-all: $(bins)
+all: $(bins) $(gnu_bins)
 endif
 
 
