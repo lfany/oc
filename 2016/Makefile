@@ -5,7 +5,7 @@ gnu_bins = world FloatTest FunctionTest
 ifeq ($(shell uname), Linux)
 	#CFLAGS := -lX11 -lGL -lGLU -lglut
 	CFLAGS := `gnustep-config --objc-flags` -lgnustep-base -lobjc
-	CLANGFLAGS := -I /usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/include `gnustep-config --objc-flags` -lgnustep-base -lobjc
+	CLANGFLAGS := -I /usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/include `gnustep-config --objc-flags` -lgnustep-base -lobjc
 all: $(bins) $(gnu_bins)
 else
 	#CFLAGS ?= -framework OpenGL  -framework GLUT
