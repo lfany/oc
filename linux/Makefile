@@ -1,5 +1,5 @@
-bins = hello world
-
+bins = hello
+gnu_bins = world
 ifeq ($(shell uname), Linux)
 	#CFLAGS := -lX11 -lGL -lGLU -lglut
 	CFLAGS := `gnustep-config --objc-flags` -lgnustep-base -lobjc
@@ -15,6 +15,6 @@ endif
 hello: hello.m
 	clang $(CLANGFLAGS) $< -o $@
 world: world.m
-	gcc $(CFLAGS) $< -o $@
+		gcc $(CFLAGS) $< -o $@
 clean:
 	rm -rf *.d $(bins)
